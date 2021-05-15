@@ -1,0 +1,23 @@
+@import "../node_modules/normalize-scss/sass/normalize/import-now"; 
+@import "_var.scss";
+@import "_mixins.scss";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+@import "hero.scss";
+@import "whatWeAre.scss";
+@import "header.scss";
+@import "tab.scss";
+@import "cbdSlider.scss";
+
+
+* {
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    // overflow-x: hidden;
+   
+}
+.login{
+    padding-right: 0;
+}
+

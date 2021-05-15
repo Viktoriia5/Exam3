@@ -1,0 +1,68 @@
+.cbdSlider {
+    
+    display: flex;
+    width:80%;
+    align-items: center;
+    margin: 0 auto;
+    
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width:25%;
+    padding: 30px 15px;
+
+
+    &__title {
+      color: #1c1c1b;
+      font-family: Oswald;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 75px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2.7px;
+    }
+
+     #slider_img1{
+         height: 260px;
+         width: 150px;
+        background: url('../img/card_img1.png') no-repeat center;
+        background-size: contain;
+    }
+     #slider_img2{
+         height: 260px;
+         width: 150px;
+        background: url('../img/card__img2.png') no-repeat center;
+        background-size: contain;
+    }
+     #slider_img3{
+         height: 260px;
+         width: 150px;
+        background: url('../img/Img.png') no-repeat center;
+        background-size: contain;
+    }
+
+    &__shop {
+    
+      .price {
+        color: #1c1c1b;
+        font-family: Oswald;
+        font-size: 18px;
+        font-weight: 400;   
+        line-height: 75px;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: 2.7px;
+      }
+
+      button{
+        width: 1920px;
+        height: 6378px;
+        background-color: #f7f8f3;
+      }
+    }
+  }
+}
